@@ -1,0 +1,25 @@
+body {
+    background-color: #2C2141;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    background-color: #F8F8F8;
+    border-radius: 16px;
+    width: 624px;
+    min-height: 320px;
+    margin: 16px;
+}
+
+.card {
+
+}
+
+img {
+    border-radius: 50%;
+    max-width: 148px;
+    max-height: 148px;
+}
