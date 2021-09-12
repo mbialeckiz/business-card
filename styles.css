@@ -29,7 +29,25 @@ body {
 .person__description {
     font-size: 16px;
     line-height: 22px;
+    margin: 0;
 }
+
+.person__description--with-margin {
+    margin-bottom: 22px;
+}
+
+.person__info {
+    margin-bottom: 24px;
+}
+
+.person__link {
+    color: #E20613;
+    text-decoration: none;
+}
+.person__link:hover {
+    text-decoration: underline;
+}
+
 .person__name {
     font-size: 36px;
     margin: 0;
@@ -47,7 +65,6 @@ body {
     color: #ED6D05;
     font-weight: normal;
 }
-
 
 img {
     border-radius: 50%;
